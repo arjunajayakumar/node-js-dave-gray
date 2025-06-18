@@ -1,0 +1,25 @@
+Topics covered
+---------------
+ - How Node JS differ from Vanilla JS ?
+
+ 1. Node JS runs on a server - not in a browser (backend not frontend)
+ 2. The console is the terminal window
+     eg : console.log('Hello World')
+ 3. global object instead of window object
+     eg: console.log(global)
+ 4. has common core modules - related to os, file system etc...
+ 5. commonJS modules instead of ES6 modules
+
+- common JS imports
+  Node JS has common core modules related to os, file system etc...
+
+- os common core modules
+  has information about os type, os version, os directory etc..
+
+- path common core modules
+  has information about path, directory etc...
+
+- custom module imports/exports
+  custom module exports using module.exports and exports.
+
+- not all apis are available in node js eg: fetch. but can be imported through npm
