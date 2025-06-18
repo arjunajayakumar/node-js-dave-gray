@@ -1,0 +1,22 @@
+- fs module used for reading, writing and modifying files
+- it is async
+- handling uncaught error using process.on
+- path module - for finding the path of directory using __dir
+- fs.readFile - for reading from file
+- fs.writeFile - to write to file
+- fs.appendFile - for appending in to a file
+- fs.rename - for renaming a file
+- fsPromises - instead of writing nested callbacks we can use fsPromises.we can use async/await for this
+- we can do all the async operations with fsPromises
+- fsPromises.readFile - for reading from file
+- fsPromises.writeFile - for writing into file
+- fsPromises.appendFile - for appending into file
+- fsPromises.rename - for renaming file
+- fsPromises.unlink - for deleting file
+- readStream/writeStream - for reading/writing streams of data
+- fs.readStream - for reading streams
+- fs.writeStream - for writing streams in to a file
+- pipe - for piping data streams
+- fs.mkdir - for creating directory
+- fs.rmdir - removing directory
+- fs.existSync - to check if a directory exists or not
