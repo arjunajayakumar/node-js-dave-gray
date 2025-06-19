@@ -1,0 +1,18 @@
+- npm init
+- package.json
+- installing a production dependency
+- installing dev dependency
+- NPM scripts
+- importing a package with an alias
+  eg 1: const { v4:uuid } = require('uuid');
+  eg 2: import v4 as uuid from 'uuid';
+- semantic versioning
+  eg: "uuid": "^11.1.0"
+  here 11 means major version, 1 means minor version and 0 means patch
+  carrot or '^' means allow updates to minor version and patch and don't touch major version
+  tilde or '~' means update patch and don't  touch other two
+  eg: "uuid": "*" means update every time - not safe
+- install specific version of npm packages
+  eg: npm i uuid@8.3.1
+- update an npm package
+  eg: npm update
