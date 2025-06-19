@@ -1,0 +1,6 @@
+- build in middleware
+- custom middleware
+- building custom middleware
+- adding third party middleware
+- creating custom error handler
+- app.use() vs app.all()
