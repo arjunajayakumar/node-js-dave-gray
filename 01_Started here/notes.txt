@@ -12,14 +12,23 @@ Topics covered
 
 - common JS imports
   Node JS has common core modules related to os, file system etc...
+  eg: const os = require('os);
 
 - os common core modules
   has information about os type, os version, os directory etc..
+  eg: const os = require('os);
+      console.log(os.type())
 
 - path common core modules
-  has information about path, directory etc...
+  has information about path, directory, file
+  eg: console.log(path.dirname(__filename))
 
 - custom module imports/exports
   custom module exports using module.exports and exports.
+  eg 1 : const divide = (a,b)=> a / b;
+         module.exports = {divide}
+  eg 2 : exports.add = (a,b)=> a + b;
 
-- not all apis are available in node js eg: fetch. but can be imported through npm
+  eg 3 : const {add, subtract, multiply, divide} = require('./math')       
+
+- not all api's are available in node js eg: fetch. but can be imported through npm
