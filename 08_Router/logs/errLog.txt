@@ -1,0 +1,7 @@
+20250619	23:11:07	4028ba7a-e475-4ae8-b948-94175bcf8d83	Error: Not allowed by CORS
+20250620	12:28:09	bd8164a4-ae26-4e31-94d8-37f1ff2c8fd5	Error: ENOENT: no such file or directory, stat 'D:\Repos\node-js-dave-gray\views\subdir\index.html'
+20250620	12:28:39	c5f041df-fe85-470b-9d2d-5be398f0c95e	Error: ENOENT: no such file or directory, stat 'D:\Repos\node-js-dave-gray\views\subdir\index.html'
+20250620	12:28:40	e08c53e3-c354-4435-b5cc-fb6aae696154	Error: ENOENT: no such file or directory, stat 'D:\Repos\node-js-dave-gray\views\subdir\index.html'
+20250621	11:10:42	2b8d5879-332d-4d36-a343-1a473d692dd1	ReferenceError: request is not defined
+20250621	11:12:16	3f161e70-25c2-4ee0-8a00-3c02e5cf4d84	ReferenceError: request is not defined
+20250621	12:01:42	d270e791-41b3-4992-9671-e4b54943803c	ReferenceError: request is not defined
