@@ -1,0 +1,2 @@
+require('crypto').randomBytes(64).toString('hex)
+accessToken expiry = 5mins or 15mins in production
